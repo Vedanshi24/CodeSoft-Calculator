@@ -1,0 +1,40 @@
+.text-center{
+    text-align: center;
+}
+
+/* .bg-red{
+    background: red;
+    background-color: rgb(19, 18, 18);
+} */
+
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+} 
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.button:active{ 
+    background-color: skyblue; 
+}
+.equalBtn{
+    color: rgb(209, 168, 33);
+}
+.operator{
+    color: rgb(209, 168, 33);
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}

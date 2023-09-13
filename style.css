@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+} */
+body{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #161615, #5f818d);
+    
+}
+input{
+    width: 210px;
+    border: none;
+    padding: 28px;
+    margin: 4px;
+    background: transparent;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: rgb(22, 153, 109);
+}
+input::placeholder{
+    color: rgb(243, 239, 239);
+}
+.button{
+    width: 66px;
+    height: 66px;
+    padding: 20px;
+    margin: -4px 0;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 20px;
+    background: transparent;
+    color: rgb(22, 153, 109);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+}
